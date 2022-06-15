@@ -11,11 +11,12 @@ Larave project for testing
 
 run in terminal:
 - ```git clone https://github.com/alikadv/project.git```
+- ```cd project```
 - ```composer install```
 - ```cp .env.example .env``` Populate .env with your database credentials
 - ```php artisan migrate --seed``` will populate the database with the sample data
-- ```php artisan key:generate``` will populate the database with the sample data
-- ```php artisan serve``` will populate the database with the sample data
+- ```php artisan key:generate```
+- ```php artisan serve```
 
 # API Requests
 
