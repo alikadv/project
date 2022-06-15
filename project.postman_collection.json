@@ -1,0 +1,128 @@
+{
+	"info": {
+		"_postman_id": "4b998175-4451-4fac-80a5-1865f4a528e8",
+		"name": "project",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "10521830"
+	},
+	"item": [
+		{
+			"name": "Collect",
+			"request": {
+				"method": "POST",
+				"header": [
+					{
+						"key": "X-Requested-With",
+						"value": "XMLHttpRequest",
+						"type": "text"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n \"co2\" : \"1000\",\r\n \"time\" : \"2019-02-01T18:55:47+00:00\"\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://127.0.0.1:8000/api/v1/sensors/b8054a4b-d434-4e07-891d-8273327631a4/mesurements",
+					"protocol": "http",
+					"host": [
+						"127",
+						"0",
+						"0",
+						"1"
+					],
+					"port": "8000",
+					"path": [
+						"api",
+						"v1",
+						"sensors",
+						"b8054a4b-d434-4e07-891d-8273327631a4",
+						"mesurements"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Status",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://127.0.0.1:8000/api/v1/sensors/b8054a4b-d434-4e07-891d-8273327631a4",
+					"protocol": "http",
+					"host": [
+						"127",
+						"0",
+						"0",
+						"1"
+					],
+					"port": "8000",
+					"path": [
+						"api",
+						"v1",
+						"sensors",
+						"b8054a4b-d434-4e07-891d-8273327631a4"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Metrics",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://127.0.0.1:8000/api/v1/sensors/b8054a4b-d434-4e07-891d-8273327631a4/metrics",
+					"protocol": "http",
+					"host": [
+						"127",
+						"0",
+						"0",
+						"1"
+					],
+					"port": "8000",
+					"path": [
+						"api",
+						"v1",
+						"sensors",
+						"b8054a4b-d434-4e07-891d-8273327631a4",
+						"metrics"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Alerts",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://127.0.0.1:8000/api/v1/sensors/b8054a4b-d434-4e07-891d-8273327631a4/alerts",
+					"protocol": "http",
+					"host": [
+						"127",
+						"0",
+						"0",
+						"1"
+					],
+					"port": "8000",
+					"path": [
+						"api",
+						"v1",
+						"sensors",
+						"b8054a4b-d434-4e07-891d-8273327631a4",
+						"alerts"
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}
