@@ -18,7 +18,7 @@ run in terminal:
 - ```php artisan key:generate```
 - ```php artisan serve```
 
-# API Requests
+## API Requests
 
 - You can find sample requests in the postman export file: 
   project.postman_collection.json
